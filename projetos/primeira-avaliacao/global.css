@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-principal: #41c841;
+    --cor-secundaria: #3c983c;
+    --cor-detalhe: #db3434;
+}
+
+body{
+   width: 1080px;
+   margin: 0 auto;
+}
+
+header, footer{
+    background-color: var(--cor-principal);
+    color: white;   
+}
+header{
+    width: 100%;
+    height: 120px;
+    padding: 20px;
+}
+
+nav{
+    width: 100%;
+    height: 40px;
+    padding: 10px 0px 0px 20px;
+    background-color: var(--cor-secundaria);
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-right:50px;
+}
+
+a, a:active, a:visited{
+    text-decoration: none;
+    color: white;
+
+    padding: 6px;
+
+    font-size: 20px;
+}
+
+a:hover{
+    background-color: var(--cor-principal);
+    border-bottom: 2px solid var(--cor-detalhe);
+}
+
+
+div#main{
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#main section{
+    position: absolute;
+    top: 10px;
+    width: 65%;
+}
+
+#main section h2{
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+
+#main aside {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 30%;
+    padding: 12px;
+    background-color: var(--cor-secundaria);
+}
+
+
+#main aside img{
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+}
+
+#main aside h4{
+    margin: 10px 0 20px;
+    border-left: 3px solid var(--cor-detalhe);
+    background-color: #00000035;
+    padding: 5px;
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table th, table td{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 12px;
+    text-align: center;
+}
+
+
+footer{
+    display: block;
+    position: absolute;
+    bottom: -20%;
+    width: 1080px;
+    height: 50px;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}

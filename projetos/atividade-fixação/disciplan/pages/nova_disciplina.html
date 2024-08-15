@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiscPlan - Nova Disciplina</title>
+    
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href=".././styles/nova_disciplina.css">
+</head>
+<body>
+    <header>
+        <h2><a href="./index.html">DisciPlan</a></h2>
+
+        <nav>
+            <ul>
+                <li><a href="./index.html" class="btn-home">
+                    <i class="icon-home"></i>
+                    Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>Criar Nova Disciplina</h2>
+    <form action="./index.html">
+        
+            <div class="first-stage">
+                
+                            <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" placeholder="Insira seu nome...">
+                        <div class="area-date">
+                            <div class="input-group">
+                                <label for="data-inicio">Data de Inicio</label>
+                                <input type="date" name="data-inicio" id="data-inicio">
+                            </div>
+                            <div class="input-group">
+                                <label for="data-fim">Data de Fim</label>
+                                <input type="date" name="data-fim" id="data-fim">
+                            </div>
+                        </div>
+                        <button class="next-stage">Próximo</button>
+            </div>
+            <div class="second-stage">
+                    <label for="objetivo-geral">Objetivo Geral</label>
+                        <textarea name="objetivo-geral" id="objetivo-geral" cols="46" rows="5"></textarea>
+                    <label for="objetivo-especificos">Objetivos Especificos</label>
+                        <textarea name="objetivo-especificos" id="objetivo-especificos" cols="46" rows="8"></textarea>
+                    <button type="submit" style="width: 100%; height: 40px;">Salvar Plano</button>
+            </div>
+                
+    </form>
+
+    <script src="../scripts/js/nova_disciplina.js"></script>
+</body>
+</html>

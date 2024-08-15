@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+
+    font-size: 1.25rem;
+
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(106, 105, 105);
+}
+
+header{
+
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1.8rem;
+}
+
+#hero-section{
+    height: 85vh;
+    background: url('https://images.unsplash.com/photo-1643330683233-ff2ac89b002c?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat top left;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+}
+
+#hero-section .area-text{
+    width: 40%;
+    height: 40%;
+    background-color: #09090988;
+    color: aliceblue;
+
+    font-size: 1.5rem;
+    padding: 2.8rem 1.6rem 0 2rem;
+}
+
+#hero-section .area-text p{
+    margin-top: 1rem;
+    width: 90%;
+}
+
+#hero-section .area-text a{
+    display: block;
+    
+    font-weight: bold;
+    color: rgb(114, 189, 244);
+
+    margin-top: 1rem;
+}
+
+section#news-articles{
+    width: 100vw;
+    margin-top: 2.4rem;
+    display: flex;
+    gap: 1rem;
+
+    padding: 2rem;
+}
+
+article{
+    width: 420px;
+    height: fit-content;
+}
+
+article h4{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+article p{
+    margin-top: .6rem;
+}
+
+article .area-img img{
+    width: 100%;
+    height: 325px;
+    object-fit: cover;
+
+}
+
+footer{
+    margin: 2rem;
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg-color: #f3f3f3;
+    --text-color: #242424;
+
+}
+body{
+    padding: 3rem;
+
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 1.5rem;
+}
+
+ul{
+    list-style: none;
+}
+
+a,
+a:visited{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+a.btn-home{
+    padding: .5rem;
+    border: 2px solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      rgb(78, 58, 251), 
+      rgb(32, 8, 138)
+    ) 1;
+}

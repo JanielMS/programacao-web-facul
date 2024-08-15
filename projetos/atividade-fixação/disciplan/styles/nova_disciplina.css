@@ -1,0 +1,39 @@
+.first-stage{
+    width: 100%;
+    height: 60vh;
+    margin-top: 4rem;
+
+    border-bottom: 2px solid rgba(0, 0, 0, 0.389);
+}
+
+input{
+    width: 100%;
+    height: 40px;
+
+    background-color: transparent;
+
+    border: none;
+    outline: none;
+
+    border-bottom: 1px solid black;
+    margin-bottom:2rem;
+}
+.first-stage label{
+    font-size: 1.4rem;
+    display: block;
+}
+
+
+div.area-date{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.second-stage{
+    display: none;
+}
+
+.second-stage.show{
+    display: block;
+}

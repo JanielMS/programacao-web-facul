@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - EX002</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <fieldset>
+            <form>
+                <p class="title">Pizza Shop 2.0</p>
+                <div class="input-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="idName" name="name">
+                </div>
+                <div class="input-group">
+                    <label for="pTopping">Pizza Topping</label>
+                    <div class="chosse-conteiner">
+                        <input type="radio" name="pTopping" id="topping-supreme" value="Supreme">
+                        <label for="topping-supreme">Supreme</label>
+                        <input type="radio" name="pTopping" id="topping-vegetarian" value="Vegetarian">
+                        <label for="topping-vegetarian">Vegetarian</label>
+                        <input type="radio" name="pTopping" id="topping-hawaiian" value="Hawaiian">
+                        <label for="topping-hawaiian">Hawaiian</label>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label for="pSauce">Pizza Sauce</label>
+                    <select name="pSauce" id="p-sauce">
+                        <option value="Tomate" selected>Tomate</option>
+                        <option value="Pesto">Pesto</option>
+                        <option value="Alfredo">Alfredo</option>
+                        <option value="Branco">Branco</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="extras">Optional Extras</label>
+                    <div class="chosse-conteiner">
+                        <input type="checkbox" name="extras" id="extra-cheese" value="cheese">
+                        <label for="extras-chesse">Extra Cheese</label>
+                        <input type="checkbox" name="extras" id="extra-gluten-free" value="gluten-free">
+                        <label for="extras">Gluten Free Base</label>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label for="instructions">Delivery Instructions</label>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </fieldset>
+    </main>
+</body>
+
+</html>
